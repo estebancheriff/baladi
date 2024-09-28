@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6B0000; /* Bordó oscuro */
+    color: #B8860B; /* Dorado oscuro */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #7A0000; /* Bordó */
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.links-section, .map-section, .contact-form, .comments-section {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #B8860B; /* Dorado oscuro */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between; /* Disposición horizontal */
+    gap: 10px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #6B0000; /* Bordó oscuro */
+    background-color: #D2B48C; /* Bordo más claro */
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    flex: 1; /* Hacer que los enlaces ocupen el mismo espacio */
+}
+
+.link:hover {
+    background-color: #B8860B; /* Dorado oscuro */
+    color: #6B0000; /* Bordó oscuro */
+}
+
+.map-container {
+    text-align: center;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Color claro para comentarios */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7A0000; /* Bordó */
+    color: #B8860B; /* Dorado oscuro */
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #B8860B; /* Dorado oscuro */
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #6B0000; /* Bordó oscuro */
+}
+
+.contact-form {
+    background-color: #D2B48C; /* Bordo más claro */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #6B0000; /* Bordó oscuro */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #6B0000; /* Bordó oscuro */
+    color: #FFD700; /* Dorado claro */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #B8860B; /* Dorado oscuro */
+}
