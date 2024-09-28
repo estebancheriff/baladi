@@ -80,35 +80,3 @@ footer {
 .social-icons a:hover {
     color: #6B0000; /* Bordó oscuro */
 }
-
-.contact-form {
-    background-color: #D2B48C; /* Bordo más claro */
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-form input, .contact-form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #6B0000; /* Bordó oscuro */
-    border-radius: 5px;
-}
-
-.contact-form button {
-    background-color: #6B0000; /* Bordó oscuro */
-    color: #FFD700; /* Dorado claro */
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.contact-form button:hover {
-    background-color: #B8860B; /* Dorado oscuro */
-}
